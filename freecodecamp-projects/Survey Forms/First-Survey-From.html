@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+  <div>
+    <h1 id="title">Survey Form</h1>
+  </div>
+  <div>
+    <p id="description">This is a Survey Form</p>
+  </div>
+</head>
+
+<body>
+  <form id="survey-form">
+
+    <label id="name-label">First name</label>
+    <input id="name" placeholder="First Name" required></input>
+    <br>
+
+    <label id="email-label">Email Address</label>
+    <input id="email" placeholder="email" type="email" required></input>
+    <br>
+
+    <label id="number-label"> Age </label>
+    <input id="number" type="number" placeholder="age" min="18" max="100" required></input>
+    <br>
+
+    <label> Select Option </label>
+    <select id="dropdown">
+      <option>apples</option>
+      <option>Strawberries</option>
+      <option>watermellon</option>
+    </select>
+    <br>
+
+    <label> select Meat </label>
+    <br>
+    <input type="radio" id="chicken" name="meat-select" value="chicken">
+    <label> Chicken </label>
+    <br>
+
+    <input type="radio" id="beef" name="meat-select" value="beef">
+    <label> Beef </label>
+    <br>
+
+    <input type="radio" id="pork" name="meat-select" value="pork">
+    <label> pork </label>
+    <br>
+    <br>
+    <label> Select Sauce</label>
+    <br>
+    <input type="checkbox" value="teriaki">
+    <label>Teriaki</label>
+    <br>
+    <input type="checkbox" value="avacado-cream">
+    <label>Avacado Cream</label>
+    <br>
+    <input type="checkbox" value="honey-bbq">
+    <label>Honey BBQ</label>
+    <br>
+    <input type="checkbox" value="salsa-verde">
+    <label>Salasa Verde</label>
+    <br>
+
+    <label> Addition Comments </label>
+    <br>
+    <textarea></textarea>
+    <br>
+    <input type="submit" id="submit">
+  </form>
+
+</body>

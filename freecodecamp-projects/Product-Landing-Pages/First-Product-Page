@@ -1,0 +1,66 @@
+<header id="header">
+    <style>
+
+#header {
+  position: fixed;
+  top: 0px;
+  width:100%;
+  opacity:;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  opacity: .8;
+}
+#header-img {
+  width: 9%;
+}
+#body { }
+
+@media screen and (min-width: 200px) {
+  body {
+    background-color: white;
+  }
+
+    </style>
+    <img 
+    id="header-img" 
+    src="https://i.pinimg.com/originals/af/05/9a/af059a52b3dfb81de17ca02fc8ac2e7a.png"
+    width="300px">
+    <nav id="nav-bar">
+        <h1> <u>Falcon Threads</u>
+        <a class="nav-link" href="#Shirts">Shirts</a>
+        <a class="nav-link" href="#Custom">Custom Designs</a>
+        <a class="nav-link" href="#Falconstyle">Falcon Style</a>
+        </h1>
+    </nav>
+
+</header>
+<body id="body">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<h2>Join our mailing list for free coupons</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">    
+        <input type="email" id="email" name="email" placeholder="email">
+      <input type="submit" id="submit" class="submit"></input>
+    </form>
+    <section id="Shirts">
+    </section>
+    
+    <section id="Custom">
+    </section>
+
+    <section id="Falconstyle">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/InoCnEtK8Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+
+    </section>
+
+
+
+
+</body>

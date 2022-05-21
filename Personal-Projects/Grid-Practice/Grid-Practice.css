@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    gap:;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+
+
+.grid-item-1 {
+background-color: aqua;
+}
+
+.grid-item-2 {
+    background-color:aquamarine;
+    }
+
+.grid-item-3 {
+background-color: khaki;
+    
+}
+
+.grid-item-4 {
+background-color:gold
+}
+
+.grid-item-5 {
+    background-color:aquamarine;
+    }
+
+.grid-item-6 {
+background-color: khaki;
+    
+}
+
+.grid-item-7 {
+background-color:gold
+}

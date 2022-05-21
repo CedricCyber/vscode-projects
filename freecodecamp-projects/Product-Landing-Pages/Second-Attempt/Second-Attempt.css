@@ -1,0 +1,67 @@
+
+    html {
+        background: linear-gradient(
+            to right,
+            black ,
+            #3f042b 
+            );
+            font-family: 'akshar', sans-serif;
+    }
+
+    .nav-link {
+        color:#52e099  
+    }
+    #header {
+        background: linear-gradient(
+            to right,
+            rgba(0,0,0,.2),
+            #3f042b 
+            );
+        
+        
+        background-image:-webkit-linear-gradient;
+        position: fixed;
+        min-width: 100%;
+        max-height: 10%;
+        text-align: center;
+        font-size: 75%;
+        letter-spacing: 1px;
+        word-spacing: 50px;
+    }
+
+    #html-img {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    #asta-img {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    #survey-img {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #bodyy {
+        color: rgb(255, 255, 255);
+    }
+
+    #portfolio {
+        background-color:
+        background-image:
+    }
+
+    .sections {
+        text-align:center;
+
+    }
+
+    
+    
+    
+    

@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Bungee+Inline&display=swap" rel="stylesheet">
     </div>
+    <script src="scoreApp.js" defer></script>
 </head>
 <body>
     <h1>Score Board</h1>
@@ -24,15 +25,16 @@
     </div>
     <div id="button-array">
         <div id="home-button-div">
-            <button onclick="">+1</button>
-            <button onclick="">+2</button>
-            <button onclick="">+3</button>
+            <button onclick="plusOne()">+1</button>
+            <button onclick="plusTwo()">+2</button>
+            <button onclick="plusThree()">+3</button>
         </div>
         <div id="away-button-div">
-            <button onclick="">+1</button>
-            <button onclick="">+2</button>
-            <button onclick="">+3</button>
+            <button onclick="plusOneAway()">+1</button>
+            <button onclick="plusTwoAway()">+2</button>
+            <button onclick="plusThreeAway()">+3</button>
         </div>
     </div>
+    <button id="reset-button" onclick="resetSum()">RESET</button>
 </body>
 </html>

@@ -25,7 +25,6 @@ html {
     padding: 10px 75px;
     margin-top: 10px;
     color: #F43F5E;
-
     
 }
     
@@ -56,4 +55,21 @@ h1 {
     position:relative;
     top: -60px;
 }
-
+#button-array button:hover {
+    cursor: pointer;
+}
+#reset-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 10px 50px;
+    background-color:#E11D48;
+    color: white;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#reset-button:hover {
+    cursor: pointer;
+}

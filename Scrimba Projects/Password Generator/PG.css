@@ -23,7 +23,7 @@ html {
     margin-left: 62px;
     border-bottom:#4ADF86 solid 1px;
     max-width: 354px;
-
+    
 }
 
 #generate-button {
@@ -33,9 +33,49 @@ html {
     margin-left: 62px;
     font-size: 30px;
     font-family: 'Karla', sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    
+}
+/*Length Selector*/
+
+#length-caption{
+    color: white;
+    display: inline;
+    margin-left: 62px;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    margin-right: 20px;
+}
+#length-select{
 
 }
+/*checkboxes*/
+
+#symbols-caption{
+    color: white;
+    display: inline-block;
+    margin-left: 62px;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+
+#symbols-checkbox {
+    display: inline-block;
+}
+#numbers-caption{
+    color: white;
+    display:inline-block;
+    margin-left: 62px;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+#numbers-checkbox {
+    display:inline-block;
+}
+
 
 #generate-button:hover {
 cursor: pointer;
@@ -59,7 +99,7 @@ display: inline-block;
 color: white;
 font-size: 30px;
 text-align: center;
-border-radius: 6%;
+border-radius: 3%;
 font-family:'Karla', sans-serif;
 height:30px;
 overflow: hidden;
@@ -75,7 +115,7 @@ overflow: hidden;
     color: white;
     font-size: 30px;
     text-align: center;
-    border-radius: 6%;
+    border-radius: 3%;
     font-family:'Karla', sans-serif;
     height:30px;
     overflow: hidden;

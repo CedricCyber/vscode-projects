@@ -19,10 +19,22 @@
     </div>
     <div id="button-div">
         <button id="generate-button" onclick="generatePassword()">Generate Passwords</button>
-        <hr id="line">
+    </div>
+    <div id="input-div">   
+        <h2 id="length-caption">password-length</h2> 
+        <input id="length-select" type="number" min="6" max="13">
+        <br>
+        <h2 id="symbols-caption">Include Symbols</h2> 
+        <input id="symbols-checkbox" type="checkbox">
+        <br>
+        <h2 id="numbers-caption">Include Numbers</h2>
+        <input id="numbers-checkbox" type="checkbox">
+    </div>
+    <hr id="line">
+    <div id="password-div">    
         <p id="password1"></p>
         <p id="password2"></p>
-    </div>
+    </div>    
 
 </body>
 </html>

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -48,12 +49,13 @@
             class="like-comment-share"
             src="images/icon-heart.png"
             alt="heart symbol"
+            id="vangogh-heart"
           />
           <img
             class="like-comment-share"
             src="images/icon-comment.png"
             alt="comment symbol"
-            id="comment-btn"
+            id="vangogh-comment-button"
           />
           <img
             class="like-comment-share"
@@ -61,13 +63,27 @@
             alt="share symbol"
           />
         </div>
-        <div id="comment-div"></div>
+        <div id="vangogh-comment-input">
+          <input
+            id="vangogh-user-comment"
+            class="margin-left-align"
+            type="text"
+          />
+          <button
+            id="vangogh-submit-button"
+            class="margin-left-align"
+            type="submit"
+          >
+            Send
+          </button>
+        </div>
         <h2 id="vangogh-likes-el" class="margin-left-align">21 likes</h2>
         <div>
           <h2 class="inline-block margin-left-align">Vincey1853</h2>
           <h3 class="inline-block margin-left-none">
             just took a few mushrooms lol
           </h3>
+          <div id="vangogh-comments"></div>
         </div>
       </section>
       <div class="content-margin"></div>
@@ -94,11 +110,13 @@
             class="like-comment-share"
             src="images/icon-heart.png"
             alt="heart symbol"
+            id="courbet-heart"
           />
           <img
             class="like-comment-share"
             src="images/icon-comment.png"
             alt="comment symbol"
+            id="courbet-comment-button"
           />
           <img
             class="like-comment-share"
@@ -106,12 +124,27 @@
             alt="share symbol"
           />
         </div>
-        <h2 class="margin-left-align">12,502 likes</h2>
+        <div id="courbet-comment-input">
+          <input
+            id="courbet-user-comment"
+            class="margin-left-align"
+            type="text"
+          />
+          <button
+            id="courbet-submit-button"
+            class="margin-left-align"
+            type="submit"
+          >
+            Send
+          </button>
+        </div>
+        <h2 class="margin-left-align" id="courbet-likes-el">4 likes</h2>
         <div>
           <h2 class="inline-block margin-left-align">gus1819</h2>
           <h3 class="inline-block margin-left-none">
             i'm feelin a bit stressed tbh
           </h3>
+          <div id="courbet-comments"></div>
         </div>
       </section>
       <div class="content-margin"></div>
@@ -139,11 +172,13 @@
               class="like-comment-share"
               src="images/icon-heart.png"
               alt="heart symbol"
+              id="ducreux-heart"
             />
             <img
               class="like-comment-share"
               src="images/icon-comment.png"
               alt="comment symbol"
+              id="ducreux-comment-button"
             />
             <img
               class="like-comment-share"
@@ -151,12 +186,27 @@
               alt="share symbol"
             />
           </div>
-          <h2 class="margin-left-align">15,137 likes</h2>
+          <div id="ducreux-comment-input">
+            <input
+              id="ducreux-user-comment"
+              class="margin-left-align"
+              type="text"
+            />
+            <button
+              id="ducreux-submit-button"
+              class="margin-left-align"
+              type="submit"
+            >
+              Send
+            </button>
+          </div>
+          <h2 class="margin-left-align" id="ducreux-likes-el">152 likes</h2>
           <div>
             <h2 class="inline-block margin-left-align">jd1735</h2>
             <h3 class="inline-block margin-left-none">
               gm friends! which coin are YOU stacking up today??
             </h3>
+            <div id="ducreux-comments"></div>
           </div>
         </div>
       </section>

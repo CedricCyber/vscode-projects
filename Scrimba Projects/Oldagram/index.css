@@ -41,6 +41,12 @@ button:hover {
   background-color: rgb(240, 240, 240);
 }
 
+#vangogh-comment-input,
+#courbet-comment-input,
+#ducreux-comment-input {
+  display: none;
+}
+
 /* Image Selectors */
 
 .post {
@@ -61,6 +67,10 @@ button:hover {
   width: 50px;
   margin: 10px 10px;
   height: 50px;
+}
+
+img:hover {
+  cursor: pointer;
 }
 
 /* Flex Selectors */

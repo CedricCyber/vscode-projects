@@ -1,0 +1,65 @@
+html {
+}
+carousel {
+  width: 100%;
+  max-width: 800px;
+}
+
+.carousel-item {
+  display: none;
+}
+
+.starting-image {
+  display: block;
+  animation: fadeIn 1s;
+}
+
+img {
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+  max-height: 400px;
+}
+
+.button-container {
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: absolute;
+}
+
+#prev-button {
+  transform: translateY(-310%);
+  margin-left: 50px;
+}
+#next-button {
+  margin-left: 223px;
+  transform: translateY(-310%);
+}
+
+button {
+  padding: 30px 12px;
+  border-radius: 50px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

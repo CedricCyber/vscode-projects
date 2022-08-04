@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <div id="fonts">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto+Slab:wght@500&display=swap"
+        rel="stylesheet"
+      />
+    </div>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Dice Game</h1>
+      </header>
+      <main>
+        <div class="player-container">
+          <div>
+            <h2 id="player1name">Player 1</h2>
+            <p id="player1score">0</p>
+          </div>
+          <div>
+            <h2 id="player2name">Player 2</h2>
+            <p id="player2score">0</p>
+          </div>
+        </div>
+        <div id="button-div">
+          <button id="roll-button">Roll</button>
+          <button id="start-game">Start Game</button>
+          <button id="reset-button">reset</button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

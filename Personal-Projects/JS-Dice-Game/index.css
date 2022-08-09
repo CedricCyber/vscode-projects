@@ -35,8 +35,24 @@ button {
   font-size: 30px;
   font-family: "Mouse Memoirs", sans-serif;
   display: block;
+  margin: 20px auto;
+  animation: fadeIn 4s;
 }
 
-#roll-button {
+button:hover {
+  cursor: pointer;
+}
+
+#roll-button,
+#reset-button {
   display: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

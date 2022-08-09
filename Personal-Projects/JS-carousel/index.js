@@ -4,15 +4,15 @@ const prevButton = document.getElementById("prev-button");
 let position = 0;
 //for (let i = 0; i < images.length; i++) {}
 
-function nextImage() {
+let nextImage = () => {
   images[position].style.display = "none";
   position++;
   images[position].style.display = "block";
   images[position].style.animation = "fadeIn 1s";
-}
+};
 
 console.log(position);
-nextButton.addEventListener("click", function () {
+nextButton.addEventListener("click", () => {
   if (position === images.length - 1) {
     position = 0;
     images[images.length - 1].style.display = "none";

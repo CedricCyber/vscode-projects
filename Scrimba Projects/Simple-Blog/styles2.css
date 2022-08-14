@@ -1,0 +1,95 @@
+/* //////////////////// */
+/* Header Layout */
+/* //////////////////// */
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  align-items: center;
+  list-style: none;
+}
+
+.nav-bar li {
+  margin: 1em;
+}
+
+@media (max-width: 620px) {
+  .flex {
+    flex-direction: column;
+  }
+  .container {
+    max-width: 350px;
+  }
+}
+/* //////////////////// */
+/* General Selectors */
+/* //////////////////// */
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* //////////////////// */
+/* Typography */
+/* //////////////////// */
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+}
+
+.title {
+  font-family: "Lora", serif;
+  font-size: 33px;
+}
+
+.title-caption {
+  font-size: 13px;
+}
+
+.article-title {
+  font-family: "Lora", serif;
+  font-size: 24px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+}
+/* //////////////////// */
+/* Color */
+/* //////////////////// */
+
+.nav-bar a {
+  color: #717171;
+}
+
+.title,
+.article-title {
+  color: #143774;
+}
+
+.title-caption,
+a {
+  color: #1792d2;
+}

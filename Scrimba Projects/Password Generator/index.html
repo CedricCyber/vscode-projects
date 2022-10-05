@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="PG.css">
+    <script src="PG.js" defer></script>
+    <div id="font-div"><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Bungee+Inline&family=Karla:wght@800&display=swap" rel="stylesheet">
+    </div>
+</head>
+<body>
+    <div id="title-div">
+        <h1 class="title" id="title1">Random <span id="green-word">Password</span> Generator</h1>
+        <p id="caption">Never use an insecure password again!</p>
+    </div>
+    <div id="button-div">
+        <button id="generate-button" onclick="generatePassword()">Generate Passwords</button>
+    </div>
+    <div id="input-div">   
+        <h2 id="length-caption">password-length</h2> 
+        <input id="length-select" type="number" min="8" max="15">
+        <br>
+        <h2 id="symbols-caption">Include Symbols</h2> 
+        <input id="symbols-checkbox" type="checkbox">
+        <br>
+        <h2 id="numbers-caption">Include Numbers</h2>
+        <input id="numbers-checkbox" type="checkbox">
+    </div>
+    <hr id="line">
+    <div id="password-div">    
+        <p id="password1"></p>
+        <p id="password2"></p>
+    </div>    
+
+</body>
+</html>

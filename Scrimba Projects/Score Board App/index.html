@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Board App</title>
+    <link rel="stylesheet" href="scoreApp.css">
+    <div id="font-div">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Bungee+Inline&display=swap" rel="stylesheet">
+    </div>
+    <script src="scoreApp.js" defer></script>
+</head>
+<body>
+    <h1>Score Board</h1>
+    <div id="h2-wrap">
+        <h2>Home</h2>
+        <h2>Away</h2>
+    </div>
+    <div id="h3-wrap">
+        <h3 id="home-points">0</h3>
+        <h3 id="away-points">0</h3>
+    </div>
+    <div id="button-array">
+        <div id="home-button-div">
+            <button onclick="plusOne()">+1</button>
+            <button onclick="plusTwo()">+2</button>
+            <button onclick="plusThree()">+3</button>
+        </div>
+        <div id="away-button-div">
+            <button onclick="plusOneAway()">+1</button>
+            <button onclick="plusTwoAway()">+2</button>
+            <button onclick="plusThreeAway()">+3</button>
+        </div>
+    </div>
+    <button id="reset-button" onclick="resetSum()">RESET</button>
+</body>
+</html>

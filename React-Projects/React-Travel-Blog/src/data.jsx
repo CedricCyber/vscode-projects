@@ -20,7 +20,7 @@ export default [
     endDate: "8 June, 2021",
     description:
       "Los Angeles is a sprawling Southern California city and the center of the nation’s film and television industry. Near its iconic Hollywood sign, studios such as Paramount Pictures, Universal and Warner Brothers offer behind-the-scenes tours. On Hollywood Boulevard, TCL Chinese Theatre displays celebrities’ hand- and footprints, the Walk of Fame honors thousands of luminaries and vendors sell maps to stars’ homes.",
-    imageUrl: "/public/images/Los-Angeles.jpg",
+    imageUrl: "./images/Los-Angeles.jpg",
     logo: "./images/location-logo.png",
   },
   {

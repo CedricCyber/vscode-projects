@@ -1,6 +1,6 @@
 function Body(props) {
   return (
-    <div className=" flex-col w-3/4 mx-auto">
+    <div className=" flex-col mx-auto max-w-5xl px-10">
       <div className=" flex justify-between pt-5 pb-5">
         <input
           onChange={props.handleChange}
@@ -22,16 +22,16 @@ function Body(props) {
       <div className="flex justify-center ">
         <button
           onClick={props.handleClick}
-          className="w-full h-16 rounded-xl bg-gradient-to-r from-purple-900 to-purple-600 items-center text-purple-100"
+          className="w-full h-16 rounded-xl border-zinc-900 bg-gradient-to-r border-solid border-2 border-black-900 from-purple-900 to-purple-600 items-center text-purple-100 meme-button"
         >
           Get a new meme image
         </button>
       </div>
-      <div className="text-pink-500 font-extrabold text-6xl relative">
+      <div className="text-pink-500 font-extrabold text-2xl md:text-5xl relative">
         <h2 className="absolute top-10 left-1/2 -translate-x-1/2">
           {props.topText}
         </h2>
-        <img className="w-full mt-5 mb-20" src={props.image}></img>
+        <img className="w-full rounded-xl mt-5 mb-20" src={props.image}></img>
         <h2 className="absolute bottom-10 left-1/2 -translate-x-1/2">
           {props.bottomText}
         </h2>

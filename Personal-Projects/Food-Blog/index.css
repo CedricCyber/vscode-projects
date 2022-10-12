@@ -1,0 +1,275 @@
+/* 
+Color Scheme
+
+
+#e51d76 (pink)
+#28225b (purple)
+#9217d3 (light purple)
+#3e3aaa (blue)
+#001247 (dark blue)
+#62fbff (light blue)
+#ffad37 (yellow)
+#d0b300 (light yellow)
+*/
+/* 
+Smooth Gradient
+
+  background-image: linear-gradient(217deg, #28225b, rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, #e51d76, rgba(253, 37, 188, 0.311) 70.71%),
+    linear-gradient(336deg, #28225b, rgba(69, 0, 129, 0.651) 70.71%);
+
+*/
+
+/* //////////////////// */
+/* General Selectors */
+/* //////////////////// */
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  display: block;
+  padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* //////////////////// */
+/* Header Layout */
+/* //////////////////// */
+
+header {
+  padding: 0.6em;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  align-items: center;
+  list-style: none;
+}
+
+.nav-bar li {
+  margin: 1em;
+}
+
+.nav-bar li:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    max-width: 350px;
+  }
+}
+
+/* //////////////////// */
+/* Layout */
+/* //////////////////// */
+
+main {
+  width: 70%;
+}
+
+aside {
+  width: 25%;
+}
+
+/* //////////////////// */
+/* Typography */
+/* //////////////////// */
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+}
+
+.title {
+  font-family: "Lora", serif;
+  font-size: 33px;
+}
+
+.title-caption,
+button {
+  font-size: 15px;
+}
+
+.article-title {
+  font-family: "Lora", serif;
+  font-size: 24px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+}
+/* //////////////////// */
+/* Font Color */
+/* //////////////////// */
+
+.nav-bar a {
+  color: #e2d600;
+}
+
+.title {
+  color: #001247;
+}
+a,
+button,
+.article-title {
+  color: #178ecf;
+}
+
+a,
+button {
+  color: #e81e79;
+}
+
+ {
+  color: #28225b;
+}
+
+.title,
+.title-caption,
+.nav-bar a {
+  color: white;
+}
+
+/* //////////////////// */
+/* Background-Color */
+/* //////////////////// */
+
+body .header-container,
+carousel-container {
+  background-image: linear-gradient(217deg, #28225b, rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, #e51d76, rgba(253, 37, 188, 0.311) 70.71%),
+    linear-gradient(336deg, #28225b, rgba(69, 0, 129, 0.651) 70.71%);
+}
+body {
+  background-image: white;
+}
+
+/* -------------------------------------------------------------------------- */
+/* //////////////////// */
+/* Carousel Styles*/
+/* //////////////////// */
+
+carousel {
+  width: 100%;
+  max-width: 800px;
+}
+
+.carousel-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item {
+  display: none;
+}
+
+.starting-image {
+  display: block;
+  animation: fadeIn 1s;
+}
+
+.carousel-image {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 800px;
+}
+
+/* @media (max-width: 1200px) {
+    .carousel-image {
+        width: 600px;
+        height: 500px;
+    }
+} */
+
+@media (max-width: 1000px) {
+  .carousel-image {
+    width: 400px;
+    height: 300px;
+  }
+  .
+}
+
+/* //////////////////// */
+/* Carousel Buttons*/
+/* //////////////////// */
+
+.button-container {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+  bottom: 50vmin;
+}
+
+@media (max-width: 1000px) {
+    .button-container {
+        bottom: 25vmax;
+    }
+}
+
+/* #prev-button {
+  transform: translateY(-710%);
+}
+#next-button {
+  transform: translateY(-710%);
+} */
+
+.carousel-button {
+  padding: 50px 20px;
+  border: none;
+  color: white;
+  background-image: linear-gradient(217deg, #28225b, rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, #e51d76, rgba(253, 37, 188, 0.311) 70.71%),
+    linear-gradient(336deg, #28225b, rgba(69, 0, 129, 0.651) 70.71%);
+}
+
+.carousel-button:hover {
+  cursor: pointer;
+}
+
+/* //////////////////// */
+/* Carousel Animations*/
+/* //////////////////// */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

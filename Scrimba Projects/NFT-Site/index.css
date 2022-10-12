@@ -1,0 +1,119 @@
+/* Color Scheme */
+/* NFT background color #e19851 or rgba(225,152,81,255) */
+/* NFT hair color Dark  #1d1e20 or rgba(29,30,32,255)*/
+/* NFT hair color Light #2d2e30 or rgba(45,46,48,255)*/
+/* NFT eye color #fdc017 or rgba(253,192,23,255)*/
+/* NFT2 background color #07766f */
+/* NFT2 hair color light #e4e6e8 */
+/* NFT2 hair color dark #d5d6d8 */
+
+/* General Document Selectors */
+html {
+  background-color: #e19851;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: whitesmoke;
+  margin: 0;
+}
+
+header {
+  background-image: linear-gradient(to right, #2d2e30 50%, #1d1e20 70%);
+  padding: 45px 0px;
+  line-height: 35px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+section p {
+  line-height: 23px;
+}
+
+.flex-container a {
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  width: 500px;
+}
+
+/* Content Container */
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+/* Images */
+
+.nft-img {
+  width: 50%;
+}
+
+/* Section Background Colors */
+
+.blue {
+  background-color: #07766f;
+}
+
+.black {
+  background-image: linear-gradient(to right, #2d2e30 50%, #1d1e20 70%);
+  padding: 45px 0px;
+  margin-bottom: -20px;
+}
+
+/* Link Colors */
+
+a {
+  color: #e19851;
+}
+
+a:hover {
+  color: #fdc017;
+}
+
+a:active {
+  color: #1d1e20;
+}
+
+/* button-flex */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.flex-item {
+  padding: 20px;
+}
+
+/* button colors */
+#venomous-button:hover {
+  background-color: #e19851;
+  cursor: pointer;
+  color: white;
+}
+
+#nightmare-button:hover {
+  background-color: #07766f;
+  cursor: pointer;
+  color: white;
+}
+
+/* Idividual Adjustments */
+
+#nightmare-title {
+  padding-top: 20px;
+}

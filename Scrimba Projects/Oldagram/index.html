@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oldagram</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <div class="container">
+      <header>
+        <div class="flex-container space-between">
+          <img id="logo" src="images/logo.png" alt="Oldagram logo" />
+          <img
+            class="profile-pic"
+            src="images/user.png"
+            alt="user profile picture"
+          />
+        </div>
+      </header>
+      <section class="top-line">
+        <div class="flex-container">
+          <img
+            class="profile-pic"
+            src="images/avatar-vangogh.jpg"
+            alt="vangoh profile picture"
+          />
+          <div>
+            <h2>Vincent Van Gogh</h2>
+            <h3>Zuder, Netherlands</h3>
+          </div>
+        </div>
+        <img
+          class="post"
+          src="images/post-vangogh.jpg"
+          alt="vangoh posted picture"
+          id="vangogh-post"
+        />
+        <div class="flex-container">
+          <img
+            class="like-comment-share"
+            src="images/icon-heart.png"
+            alt="heart symbol"
+            id="vangogh-heart"
+          />
+          <img
+            class="like-comment-share"
+            src="images/icon-comment.png"
+            alt="comment symbol"
+            id="vangogh-comment-button"
+          />
+          <img
+            class="like-comment-share"
+            src="images/icon-dm.png"
+            alt="share symbol"
+          />
+        </div>
+        <div id="vangogh-comment-input">
+          <input
+            id="vangogh-user-comment"
+            class="margin-left-align"
+            type="text"
+          />
+          <button
+            id="vangogh-submit-button"
+            class="margin-left-align"
+            type="submit"
+          >
+            Send
+          </button>
+        </div>
+        <h2 id="vangogh-likes-el" class="margin-left-align">21 likes</h2>
+        <div>
+          <h2 class="inline-block margin-left-align">Vincey1853</h2>
+          <h3 class="inline-block margin-left-none">
+            just took a few mushrooms lol
+          </h3>
+          <div id="vangogh-comments"></div>
+        </div>
+      </section>
+      <div class="content-margin"></div>
+      <section>
+        <div class="flex-container">
+          <img
+            class="profile-pic"
+            src="images/avatar-courbet.jpg"
+            alt="courbet profile picture"
+          />
+          <div>
+            <h2>Gustave Courbet</h2>
+            <h3>Ornans, France</h3>
+          </div>
+        </div>
+        <img
+          class="post"
+          src="images/post-courbet.jpg"
+          alt="courbet posted picture"
+          id="courbet-post"
+        />
+        <div class="flex-container">
+          <img
+            class="like-comment-share"
+            src="images/icon-heart.png"
+            alt="heart symbol"
+            id="courbet-heart"
+          />
+          <img
+            class="like-comment-share"
+            src="images/icon-comment.png"
+            alt="comment symbol"
+            id="courbet-comment-button"
+          />
+          <img
+            class="like-comment-share"
+            src="images/icon-dm.png"
+            alt="share symbol"
+          />
+        </div>
+        <div id="courbet-comment-input">
+          <input
+            id="courbet-user-comment"
+            class="margin-left-align"
+            type="text"
+          />
+          <button
+            id="courbet-submit-button"
+            class="margin-left-align"
+            type="submit"
+          >
+            Send
+          </button>
+        </div>
+        <h2 class="margin-left-align" id="courbet-likes-el">4 likes</h2>
+        <div>
+          <h2 class="inline-block margin-left-align">gus1819</h2>
+          <h3 class="inline-block margin-left-none">
+            i'm feelin a bit stressed tbh
+          </h3>
+          <div id="courbet-comments"></div>
+        </div>
+      </section>
+      <div class="content-margin"></div>
+      <section>
+        <div class="flex-container">
+          <img
+            class="profile-pic"
+            src="images/avatar-ducreux.jpg"
+            alt="Joseph profile picture"
+          />
+          <div>
+            <h2>Joseph Ducreux</h2>
+            <h3>Paris, France</h3>
+          </div>
+        </div>
+        <img
+          class="post"
+          src="images/post-ducreux.jpg"
+          alt="Joseph posted picture"
+          id="ducreux-post"
+        />
+        <div class="buttons-likecounter-comments-container">
+          <div class="flex-container">
+            <img
+              class="like-comment-share"
+              src="images/icon-heart.png"
+              alt="heart symbol"
+              id="ducreux-heart"
+            />
+            <img
+              class="like-comment-share"
+              src="images/icon-comment.png"
+              alt="comment symbol"
+              id="ducreux-comment-button"
+            />
+            <img
+              class="like-comment-share"
+              src="images/icon-dm.png"
+              alt="share symbol"
+            />
+          </div>
+          <div id="ducreux-comment-input">
+            <input
+              id="ducreux-user-comment"
+              class="margin-left-align"
+              type="text"
+            />
+            <button
+              id="ducreux-submit-button"
+              class="margin-left-align"
+              type="submit"
+            >
+              Send
+            </button>
+          </div>
+          <h2 class="margin-left-align" id="ducreux-likes-el">152 likes</h2>
+          <div>
+            <h2 class="inline-block margin-left-align">jd1735</h2>
+            <h3 class="inline-block margin-left-none">
+              gm friends! which coin are YOU stacking up today??
+            </h3>
+            <div id="ducreux-comments"></div>
+          </div>
+        </div>
+      </section>
+      <div class="content-margin"></div>
+      <div class="content-margin"></div>
+    </div>
+  </body>
+</html>

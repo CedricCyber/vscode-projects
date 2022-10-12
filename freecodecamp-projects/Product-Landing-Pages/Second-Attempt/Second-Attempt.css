@@ -1,0 +1,117 @@
+
+    html {
+        background: linear-gradient(
+            to right,
+            black ,
+            #3f042b 
+            );
+            font-family: 'akshar', sans-serif;
+    }
+    .nav-bar-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .port-grid-item-4 {
+        grid-column: span 3;
+    }
+    .nav-link {
+        color:#52e099  
+    }
+    #header {
+        background: linear-gradient(
+            to right,
+            rgba(0,0,0,.2),
+            #3f042b 
+            );
+        
+        
+        background-image:-webkit-linear-gradient;
+        position: fixed;
+        min-width: 100%;
+        max-height: 10%;
+        text-align: center;
+        font-size: 75%;
+        letter-spacing: 1px;
+        
+    }
+
+    #html-img {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    #asta-img {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    #survey-img {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #bodyy {
+        color: rgb(255, 255, 255);
+    }
+
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.5em;
+
+    }
+
+    #portfolio {
+       background: linear-gradient(
+            to right,
+            #52e099 ,
+            #3f042b 
+            );
+            padding: 1em;
+            margin: 1em;
+            border-radius: 5%;
+    }
+
+    .sections {
+        text-align:center;
+
+    }
+
+    #text-align-div {
+        text-align:center;
+        
+        
+    }
+
+    #about-me-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #about-me {
+    background: linear-gradient(
+            to right,
+            #52e099 ,
+            #3f042b 
+            );
+        margin: 1em;
+        border-radius: 5%; 
+        padding: 1em;
+    }
+
+    #project-textbox {
+        background: linear-gradient(
+            to right,
+            #52e099 ,
+            #3f042b 
+            );
+        width:
+    }
+    
+    
+    
+    

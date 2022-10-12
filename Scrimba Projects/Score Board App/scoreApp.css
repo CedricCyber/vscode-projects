@@ -1,0 +1,75 @@
+html {
+    background-color: #075985;
+    color: white;
+}
+
+#h2-wrap {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#h3-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 90px;
+    font-weight: 400;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Bungee Inline', cursive;
+    
+
+}
+#h3-wrap h3 {
+    background-color: #111827;
+    padding: 10px 75px;
+    margin-top: 10px;
+    color: #F43F5E;
+    
+}
+    
+
+h1 {
+    display: flex;
+    padding: 10px;
+    background-color: #E11D48;
+    justify-content: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#button-array{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#button-array button {
+    background-color:#075985;
+    color: white;
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    position:relative;
+    top: -60px;
+}
+#button-array button:hover {
+    cursor: pointer;
+}
+#reset-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 10px 50px;
+    background-color:#E11D48;
+    color: white;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#reset-button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,120 @@
+html {
+    background-color: #1F2937;
+}
+
+#title1 {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    display: inline;
+    margin-top: 115px;
+    margin-left: 62px;
+    display: inline-block;
+}
+#green-word {
+    color: #4ADF86;
+}
+
+#caption {
+    color: #D5D4D8;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 62px;
+    border-bottom:#4ADF86 solid 1px;
+    max-width: 354px;
+    
+}
+
+#generate-button {
+    padding: 20px;
+    background-color: #4ADF86;
+    color: white;
+    margin-left: 62px;
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 20px;
+    
+}
+/*Length Selector*/
+
+#length-caption{
+    color: white;
+    display: inline;
+    margin-left: 62px;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    margin-right: 20px;
+}
+
+/*checkboxes*/
+
+#symbols-caption{
+    color: white;
+    display: inline-block;
+    margin-left: 62px;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+
+#symbols-checkbox {
+    display: inline-block;
+}
+#numbers-caption{
+    color: white;
+    display:inline-block;
+    margin-left: 62px;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+#numbers-checkbox {
+    display:inline-block;
+}
+
+
+#generate-button:hover {
+cursor: pointer;
+}
+
+#line {
+    border: 0;
+    border-bottom:#4ADF86 solid 1px;
+    
+    margin-left: 62px;
+    margin-right: 100px;
+}
+
+#password1 {
+padding: 30px;
+background-color: #4ADF86;
+width: 30%;
+margin-top: 50px;
+margin-left: 62px;
+display: inline-block;
+color: white;
+font-size: 30px;
+text-align: center;
+border-radius: 3%;
+font-family:'Karla', sans-serif;
+height:30px;
+overflow: hidden;
+}
+
+#password2 {
+    padding: 30px;
+    background-color: #4ADF86;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 62px;
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 3%;
+    font-family:'Karla', sans-serif;
+    height:30px;
+    overflow: hidden;
+    }

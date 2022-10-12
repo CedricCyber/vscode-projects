@@ -1,8 +1,0 @@
-#navbar {
-    position: fixed;
-    float: left;
-    max-width: 25%;
-}
-@media {
-    min-width: 50%;
-}
